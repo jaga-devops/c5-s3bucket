@@ -38,23 +38,6 @@ resource "aws_s3_bucket_server_side_encryption_configuration" "jaga-prod-blisslo
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #CREATE S3BUCKET c5-bliss-trail-n-virginia
 resource "aws_s3_bucket" "jaga-c5-bliss-trail-n-virginia" {
   bucket = var.c5-bliss-trail-n-virginia
